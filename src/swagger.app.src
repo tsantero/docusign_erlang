@@ -1,0 +1,18 @@
+{application, swagger,
+ [{description, "The DocuSign REST API provides you with a powerful, convenient, and simple Web services API for interacting with DocuSign."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+    [kernel,
+     stdlib,
+     ssl,
+     hackney,
+     ctx
+    ]},
+  {env, [{host, "www.docusign.net"}]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, ["https://developers.docusign.com/"]}
+]}.
